@@ -95,18 +95,17 @@ _OBJC_IVAR_$_POPAnimation._progressMarkers
 __OBJC_$_INSTANCE_VARIABLES_POPAnimation
 __OBJC_$_PROP_LIST_POPAnimation
 __OBJC_CLASS_RO_$_POPAnimation
-_OBJC_CLASSLIST_REFERENCES_$_.141
-_OBJC_SELECTOR_REFERENCES_.143
-_OBJC_SELECTOR_REFERENCES_.145
-_OBJC_SELECTOR_REFERENCES_.147
-_OBJC_SELECTOR_REFERENCES_.149
-_OBJC_SELECTOR_REFERENCES_.151
-_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_CLASSLIST_REFERENCES_$_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSObject_$_POP
 __OBJC_$_CATEGORY_NSObject_$_POP
 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSProxy_$_POP
 __OBJC_$_CATEGORY_NSProxy_$_POP
-_OBJC_SELECTOR_REFERENCES_.161
 _OBJC_SELECTOR_REFERENCES_.162
 _OBJC_SELECTOR_REFERENCES_.163
 _OBJC_SELECTOR_REFERENCES_.164
@@ -127,6 +126,7 @@ _OBJC_SELECTOR_REFERENCES_.178
 _OBJC_SELECTOR_REFERENCES_.179
 _OBJC_SELECTOR_REFERENCES_.180
 _OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.182
 __OBJC_$_CATEGORY_INSTANCE_METHODS_POPAnimation_$_NSCopying
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
 __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
@@ -134,21 +134,23 @@ __OBJC_PROTOCOL_$_NSCopying
 __OBJC_LABEL_PROTOCOL_$_NSCopying
 __OBJC_CATEGORY_PROTOCOLS_$_POPAnimation_$_NSCopying
 __OBJC_$_CATEGORY_POPAnimation_$_NSCopying
-_OBJC_SELECTOR_REFERENCES_.186
-_OBJC_SELECTOR_REFERENCES_.188
-_OBJC_CLASSLIST_REFERENCES_$_.189
-_OBJC_SELECTOR_REFERENCES_.191
-_OBJC_SELECTOR_REFERENCES_.193
-_OBJC_SELECTOR_REFERENCES_.195
-_OBJC_SELECTOR_REFERENCES_.197
-_OBJC_SELECTOR_REFERENCES_.199
-_OBJC_SELECTOR_REFERENCES_.201
-_OBJC_SELECTOR_REFERENCES_.203
-Apple clang version 13.0.0 (clang-1300.0.29.3)
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
-iPhoneOS15.0.sdk
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPAnimation.mm
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop
+__ZTS18_POPAnimationState
+__ZTI18_POPAnimationState
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_CLASSLIST_REFERENCES_$_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+iPhoneOS15.5.sdk
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPAnimation.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop
 ActionEnabler
 pop/POPAction.h
 ~_POPAnimationState
@@ -192,8 +194,8 @@ __ZN26_POPPropertyAnimationState12currentValueEv
 -[POPPropertyAnimation(NSCopying) copyWithZone:]
 +[POPPropertyAnimation(CustomProperty) animationWithCustomPropertyNamed:readBlock:writeBlock:]
 ___94+[POPPropertyAnimation(CustomProperty) animationWithCustomPropertyNamed:readBlock:writeBlock:]_block_invoke
-___copy_helper_block_ea4_20b24b
-___destroy_helper_block_ea4_20s24s
+___copy_helper_block_ea8_32b40b
+___destroy_helper_block_ea8_32s40s
 +[POPPropertyAnimation(CustomProperty) animationWithCustomPropertyReadBlock:writeBlock:]
 __ZN26_POPPropertyAnimationStateD1Ev
 __ZN26_POPPropertyAnimationStateD0Ev
@@ -205,9 +207,10 @@ __ZN26_POPPropertyAnimationState5resetEb
 __ZN26_POPPropertyAnimationState24updatedDynamicsThresholdEv
 __ZN26_POPPropertyAnimationStateD2Ev
 __ZN26_POPPropertyAnimationState15readObjectValueEPNSt3__110shared_ptrIN3POP6VectorEEEP11objc_object
+__ZNSt3__110shared_ptrIN3POP6VectorEEC2IS2_vEEPT_
 __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
 __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
-__ZNK22ComputeProgressFunctorIN3POP7Vector4IfEEEclERKS2_S5_S5_
+__ZNK22ComputeProgressFunctorIN3POP7Vector4IdEEEclERKS2_S5_S5_
 __ZN26_POPPropertyAnimationState21handleDidReachToValueEv
 ____ZN26_POPPropertyAnimationState22updatedProgressMarkersEv_block_invoke
 -[POPPropertyAnimation fromValue].cold.1
@@ -240,7 +243,7 @@ __OBJC_$_CATEGORY_POPPropertyAnimation_$_NSCopying
 _OBJC_SELECTOR_REFERENCES_.76
 _OBJC_SELECTOR_REFERENCES_.78
 _OBJC_SELECTOR_REFERENCES_.80
-___block_descriptor_28_ea4_20bs24bs_e37_v8?0"POPMutableAnimatableProperty"4l
+___block_descriptor_48_ea8_32bs40bs_e38_v16?0"POPMutableAnimatableProperty"8l
 _OBJC_SELECTOR_REFERENCES_.83
 _OBJC_CLASSLIST_REFERENCES_$_.84
 _OBJC_SELECTOR_REFERENCES_.86
@@ -248,6 +251,8 @@ _OBJC_SELECTOR_REFERENCES_.88
 _OBJC_SELECTOR_REFERENCES_.90
 __OBJC_$_CATEGORY_CLASS_METHODS_POPPropertyAnimation_$_CustomProperty
 __OBJC_$_CATEGORY_POPPropertyAnimation_$_CustomProperty
+__ZTS26_POPPropertyAnimationState
+__ZTI26_POPPropertyAnimationState
 _OBJC_SELECTOR_REFERENCES_.96
 _OBJC_SELECTOR_REFERENCES_.98
 _OBJC_CLASSLIST_REFERENCES_$_.99
@@ -255,6 +260,9 @@ _OBJC_SELECTOR_REFERENCES_.101
 _OBJC_SELECTOR_REFERENCES_.103
 _OBJC_SELECTOR_REFERENCES_.105
 _OBJC_SELECTOR_REFERENCES_.107
+__ZTSNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN3POP6VectorEE27__shared_ptr_default_deleteIS2_S2_EE
 __ZZN26_POPPropertyAnimationState15computeProgressEvE4func
 _OBJC_SELECTOR_REFERENCES_.109
 _OBJC_SELECTOR_REFERENCES_.111
@@ -263,9 +271,9 @@ _OBJC_SELECTOR_REFERENCES_.115
 _OBJC_SELECTOR_REFERENCES_.117
 _OBJC_SELECTOR_REFERENCES_.119
 _OBJC_SELECTOR_REFERENCES_.121
-___block_descriptor_24_e24_v16?0"NSNumber"4I8^c12l
+___block_descriptor_40_e25_v32?0"NSNumber"8Q16^B24l
 _OBJC_SELECTOR_REFERENCES_.124
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPPropertyAnimation.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPPropertyAnimation.mm
 _ZN26_POPPropertyAnimationState15computeProgressEv.cold.1
 pop/POPPropertyAnimationInternal.h
 -[POPPropertyAnimation currentValue].cold.2
@@ -276,7 +284,7 @@ pop/POPPropertyAnimation.mm
 -[POPPropertyAnimation setFromValue:].cold.1
 -[POPPropertyAnimation fromValue].cold.1
 ~shared_ptr
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/memory
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__memory/shared_ptr.h
 __release_shared
 __libcpp_atomic_refcount_decrement<long>
 ___ZN26_POPPropertyAnimationState22updatedProgressMarkersEv_block_invoke
@@ -290,22 +298,29 @@ pop/POPVector.h
 operator-
 __on_zero_shared_weak
 deallocate
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__memory/allocator.h
 __libcpp_deallocate
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/new
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/new
 __do_deallocate_handle_size<>
 __libcpp_operator_delete<void *>
 __get_deleter
-operator==
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/typeinfo
-__eq
-__on_zero_shared
-first
+second
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__memory/compressed_pair.h
 __get
+first
+operator==
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/typeinfo
+__eq
+__type_name_to_string
+__is_type_name_unique
+__on_zero_shared
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__memory/unique_ptr.h
 ~__shared_ptr_pointer
+shared_ptr<POP::Vector, void>
 ~unique_ptr
 __shared_ptr_pointer
-__compressed_pair<std::__compressed_pair<POP::Vector *, std::shared_ptr<POP::Vector>::__shared_ptr_default_delete<POP::Vector, POP::Vector> >, std::allocator<POP::Vector> >
-__compressed_pair_elem<std::__compressed_pair<POP::Vector *, std::shared_ptr<POP::Vector>::__shared_ptr_default_delete<POP::Vector, POP::Vector> >, void>
+__compressed_pair<std::__1::__compressed_pair<POP::Vector *, std::__1::shared_ptr<POP::Vector>::__shared_ptr_default_delete<POP::Vector, POP::Vector> >, std::__1::allocator<POP::Vector> >
+__compressed_pair_elem<std::__1::__compressed_pair<POP::Vector *, std::__1::shared_ptr<POP::Vector>::__shared_ptr_default_delete<POP::Vector, POP::Vector> >, void>
 __shared_weak_count
 __shared_count
 readObjectValue
@@ -313,19 +328,18 @@ __add_shared
 __libcpp_atomic_refcount_increment<long>
 operator=
 swap
-swap<std::__shared_weak_count *>
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/type_traits
+swap<std::__1::__shared_weak_count *>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__utility/swap.h
 swap<POP::Vector *>
 shared_ptr
 read_values
-data
-Zero
-Vector4
 ~_POPPropertyAnimationState
 updatedDynamicsThreshold
 resetProgressMarkerState
+llvm.loop.isvectorized
 llvm.loop.mustprogress
 operator[]
+data
 operator bool
 get
 operator-=
@@ -336,8 +350,8 @@ vector4
 operator==<const POP::Vector>
 operator!=<POP::Vector>
 operator==<POP::Vector>
-__destroy_helper_block_ea4_20s24s
-__copy_helper_block_ea4_20b24b
+__destroy_helper_block_ea8_32s40s
+__copy_helper_block_ea8_32b40b
 __94+[POPPropertyAnimation(CustomProperty) animationWithCustomPropertyNamed:readBlock:writeBlock:]_block_invoke
 describe
 currentValue
@@ -366,7 +380,7 @@ __ZN23_POPBasicAnimationStateD1Ev
 __ZN23_POPBasicAnimationStateD0Ev
 __ZN23_POPBasicAnimationState6isDoneEv
 __ZN23_POPBasicAnimationState7advanceEddP11objc_object
-__ZN26_POPPropertyAnimationState17clampCurrentValueEj
+__ZN26_POPPropertyAnimationState17clampCurrentValueEm
 _OBJC_CLASSLIST_REFERENCES_$_.7
 _OBJC_SELECTOR_REFERENCES_.9
 _OBJC_SELECTOR_REFERENCES_.11
@@ -383,6 +397,8 @@ _OBJC_SELECTOR_REFERENCES_.40
 _OBJC_SELECTOR_REFERENCES_.41
 __OBJC_$_CATEGORY_INSTANCE_METHODS_POPBasicAnimation_$_NSCopying
 __OBJC_$_CATEGORY_POPBasicAnimation_$_NSCopying
+__ZTS23_POPBasicAnimationState
+__ZTI23_POPBasicAnimationState
 _OBJC_SELECTOR_REFERENCES_.45
 _OBJC_SELECTOR_REFERENCES_.47
 _OBJC_CLASSLIST_REFERENCES_$_.48
@@ -391,7 +407,7 @@ _OBJC_SELECTOR_REFERENCES_.52
 _OBJC_SELECTOR_REFERENCES_.54
 _OBJC_SELECTOR_REFERENCES_.56
 _OBJC_SELECTOR_REFERENCES_.58
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPBasicAnimation.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPBasicAnimation.mm
 clampCurrentValue
 clampValue
 pop/POPBasicAnimationInternal.h
@@ -399,7 +415,6 @@ interpolate
 ~_POPBasicAnimationState
 pop/POPBasicAnimation.mm
 updatedTimingFunction
-llvm.loop.isvectorized
 _POPBasicAnimationState
 +[POPCustomAnimation animationWithBlock:]
 -[POPCustomAnimation _init]
@@ -424,7 +439,7 @@ __OBJC_CLASS_RO_$_POPCustomAnimation
 _OBJC_SELECTOR_REFERENCES_.32
 __OBJC_$_CATEGORY_INSTANCE_METHODS_POPCustomAnimation_$_NSCopying
 __OBJC_$_CATEGORY_POPCustomAnimation_$_NSCopying
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPCustomAnimation.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPCustomAnimation.mm
 pop/POPCustomAnimation.mm
 +[POPDecayAnimation animation]
 +[POPDecayAnimation animationWithPropertyNamed:]
@@ -450,7 +465,7 @@ __ZN23_POPDecayAnimationStateD1Ev
 __ZN23_POPDecayAnimationStateD0Ev
 __ZN23_POPDecayAnimationState6isDoneEv
 __ZN23_POPDecayAnimationState7advanceEddP11objc_object
-__ZL14decay_positionPfS_jdf
+__ZL14decay_positionPdS_mdd
 -[POPDecayAnimation toValue].cold.1
 -[POPDecayAnimation originalVelocity].cold.1
 -[POPDecayAnimation velocity].cold.1
@@ -476,19 +491,19 @@ __OBJC_$_PROP_LIST_POPDecayAnimation
 __OBJC_CLASS_RO_$_POPDecayAnimation
 _OBJC_SELECTOR_REFERENCES_.81
 _OBJC_SELECTOR_REFERENCES_.82
-_OBJC_SELECTOR_REFERENCES_.84
 __OBJC_$_CATEGORY_INSTANCE_METHODS_POPDecayAnimation_$_NSCopying
 __OBJC_$_CATEGORY_POPDecayAnimation_$_NSCopying
-_OBJC_CLASSLIST_REFERENCES_$_.91
-_OBJC_SELECTOR_REFERENCES_.93
+__ZTS23_POPDecayAnimationState
+__ZTI23_POPDecayAnimationState
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
 _OBJC_SELECTOR_REFERENCES_.95
-_OBJC_SELECTOR_REFERENCES_.100
-_OBJC_SELECTOR_REFERENCES_.102
-_OBJC_SELECTOR_REFERENCES_.104
-_OBJC_SELECTOR_REFERENCES_.106
-_OBJC_SELECTOR_REFERENCES_.108
-_OBJC_SELECTOR_REFERENCES_.110
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPDecayAnimation.mm
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPDecayAnimation.mm
 _ZN23_POPDecayAnimationState15computeDurationEv.cold.1
 pop/POPDecayAnimationInternal.h
 -[POPDecayAnimation setVelocity:].cold.1
@@ -497,7 +512,7 @@ pop/POPDecayAnimation.mm
 -[POPDecayAnimation originalVelocity].cold.1
 -[POPDecayAnimation toValue].cold.1
 decay_position
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/stdlib.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/stdlib.h
 vec_data
 ~_POPDecayAnimationState
 computeToValue
@@ -558,13 +573,15 @@ _OBJC_SELECTOR_REFERENCES_.75
 _OBJC_SELECTOR_REFERENCES_.77
 __OBJC_$_CATEGORY_INSTANCE_METHODS_POPSpringAnimation_$_NSCopying
 __OBJC_$_CATEGORY_POPSpringAnimation_$_NSCopying
+__ZTS24_POPSpringAnimationState
+__ZTI24_POPSpringAnimationState
+_OBJC_SELECTOR_REFERENCES_.84
 _OBJC_CLASSLIST_REFERENCES_$_.87
-_OBJC_SELECTOR_REFERENCES_.89
 _OBJC_SELECTOR_REFERENCES_.91
-_OBJC_SELECTOR_REFERENCES_.97
-_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.93
 _OBJC_CLASSLIST_REFERENCES_$_.106
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPSpringAnimation.mm
+_OBJC_SELECTOR_REFERENCES_.108
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPSpringAnimation.mm
 _ZN24_POPSpringAnimationState12hasConvergedEv.cold.1
 pop/POPSpringAnimationInternal.h
 -[POPSpringAnimation setVelocity:].cold.1
@@ -581,7 +598,6 @@ setThreshold
 setConstants
 operator=<double>
 vector4d
-cast<double>
 started
 ~_POPSpringAnimationState
 updatedDynamics
@@ -725,11 +741,12 @@ ___cxx_global_array_dtor
 +[POPAnimatableProperty propertyWithName:initializer:]
 -[POPAnimatableProperty description]
 __GLOBAL__sub_I_POPAnimatableProperty.mm
-___block_descriptor_20_e20_v12?0"CALayer"4^f8l
+___block_descriptor_32_e21_v24?0"CALayer"8^d16l
 ___block_literal_global
-___block_descriptor_20_e21_v12?0"CALayer"4r^f8l
+___block_descriptor_32_e22_v24?0"CALayer"8r^d16l
 ___block_literal_global.105
 ___block_literal_global.108
+_OBJC_SELECTOR_REFERENCES_.110
 ___block_literal_global.111
 ___block_literal_global.114
 _OBJC_SELECTOR_REFERENCES_.116
@@ -751,8 +768,8 @@ ___block_literal_global.139
 ___block_literal_global.140
 ___block_literal_global.141
 ___block_literal_global.142
-_OBJC_SELECTOR_REFERENCES_.144
 ___block_literal_global.145
+_OBJC_SELECTOR_REFERENCES_.147
 ___block_literal_global.148
 ___block_literal_global.149
 ___block_literal_global.150
@@ -784,28 +801,26 @@ ___block_literal_global.179
 ___block_literal_global.180
 ___block_literal_global.181
 ___block_literal_global.182
-___block_descriptor_20_e12_v12?04r^f8l
+___block_descriptor_32_e13_v24?08r^d16l
 ___block_literal_global.184
 ___block_literal_global.185
 ___block_literal_global.186
 ___block_literal_global.187
-_OBJC_SELECTOR_REFERENCES_.189
 ___block_literal_global.190
-_OBJC_SELECTOR_REFERENCES_.192
 ___block_literal_global.193
+_OBJC_SELECTOR_REFERENCES_.195
 ___block_literal_global.196
-_OBJC_SELECTOR_REFERENCES_.198
 ___block_literal_global.199
+_OBJC_SELECTOR_REFERENCES_.201
 ___block_literal_global.202
-_OBJC_SELECTOR_REFERENCES_.204
 ___block_literal_global.205
 _OBJC_SELECTOR_REFERENCES_.207
 ___block_literal_global.208
 _OBJC_SELECTOR_REFERENCES_.210
-___block_descriptor_20_e25_v12?0"CAShapeLayer"4^f8l
+___block_descriptor_32_e26_v24?0"CAShapeLayer"8^d16l
 ___block_literal_global.212
 _OBJC_SELECTOR_REFERENCES_.214
-___block_descriptor_20_e26_v12?0"CAShapeLayer"4r^f8l
+___block_descriptor_32_e27_v24?0"CAShapeLayer"8r^d16l
 ___block_literal_global.216
 _OBJC_SELECTOR_REFERENCES_.218
 ___block_literal_global.219
@@ -828,16 +843,16 @@ ___block_literal_global.243
 _OBJC_SELECTOR_REFERENCES_.245
 ___block_literal_global.246
 _OBJC_SELECTOR_REFERENCES_.248
-___block_descriptor_20_e31_v12?0"NSLayoutConstraint"4^f8l
+___block_descriptor_32_e32_v24?0"NSLayoutConstraint"8^d16l
 ___block_literal_global.250
 _OBJC_SELECTOR_REFERENCES_.252
-___block_descriptor_20_e32_v12?0"NSLayoutConstraint"4r^f8l
+___block_descriptor_32_e33_v24?0"NSLayoutConstraint"8r^d16l
 ___block_literal_global.254
 _OBJC_SELECTOR_REFERENCES_.256
-___block_descriptor_20_e19_v12?0"UIView"4^f8l
+___block_descriptor_32_e20_v24?0"UIView"8^d16l
 ___block_literal_global.258
 _OBJC_SELECTOR_REFERENCES_.260
-___block_descriptor_20_e20_v12?0"UIView"4r^f8l
+___block_descriptor_32_e21_v24?0"UIView"8r^d16l
 ___block_literal_global.262
 _OBJC_SELECTOR_REFERENCES_.264
 ___block_literal_global.265
@@ -861,10 +876,10 @@ ___block_literal_global.287
 _OBJC_SELECTOR_REFERENCES_.289
 ___block_literal_global.290
 _OBJC_SELECTOR_REFERENCES_.292
-___block_descriptor_20_e25_v12?0"UIScrollView"4^f8l
+___block_descriptor_32_e26_v24?0"UIScrollView"8^d16l
 ___block_literal_global.294
 _OBJC_SELECTOR_REFERENCES_.296
-___block_descriptor_20_e26_v12?0"UIScrollView"4r^f8l
+___block_descriptor_32_e27_v24?0"UIScrollView"8r^d16l
 ___block_literal_global.298
 _OBJC_SELECTOR_REFERENCES_.300
 ___block_literal_global.301
@@ -883,16 +898,16 @@ ___block_literal_global.319
 _OBJC_SELECTOR_REFERENCES_.321
 ___block_literal_global.322
 _OBJC_SELECTOR_REFERENCES_.324
-___block_descriptor_20_e28_v12?0"UINavigationBar"4^f8l
+___block_descriptor_32_e29_v24?0"UINavigationBar"8^d16l
 ___block_literal_global.326
 _OBJC_SELECTOR_REFERENCES_.328
-___block_descriptor_20_e29_v12?0"UINavigationBar"4r^f8l
+___block_descriptor_32_e30_v24?0"UINavigationBar"8r^d16l
 ___block_literal_global.330
 _OBJC_SELECTOR_REFERENCES_.332
-___block_descriptor_20_e20_v12?0"UILabel"4^f8l
+___block_descriptor_32_e21_v24?0"UILabel"8^d16l
 ___block_literal_global.334
 _OBJC_SELECTOR_REFERENCES_.336
-___block_descriptor_20_e21_v12?0"UILabel"4r^f8l
+___block_descriptor_32_e22_v24?0"UILabel"8r^d16l
 ___block_literal_global.338
 _OBJC_SELECTOR_REFERENCES_.340
 __ZL13_staticStates
@@ -964,10 +979,10 @@ __OBJC_$_INSTANCE_METHODS_POPAnimatableProperty
 __OBJC_$_PROP_LIST_POPAnimatableProperty
 __OBJC_CLASS_RO_$_POPAnimatableProperty
 _OBJC_SELECTOR_REFERENCES_.431
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPAnimatableProperty.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPAnimatableProperty.mm
 _GLOBAL__sub_I_POPAnimatableProperty.mm
-__cxx_global_var_init
 pop/POPAnimatableProperty.mm
+__cxx_global_var_init
 staticIndexWithName
 __cxx_global_array_dtor
 ~
@@ -1100,8 +1115,8 @@ _ZL13_staticStates_block_invoke
 __OBJC_METACLASS_RO_$_POPAnimationEvent
 __OBJC_$_INSTANCE_METHODS_POPAnimationEvent
 _OBJC_IVAR_$_POPAnimationEvent._type
-_OBJC_IVAR_$_POPAnimationEvent._animationDescription
 _OBJC_IVAR_$_POPAnimationEvent._time
+_OBJC_IVAR_$_POPAnimationEvent._animationDescription
 __OBJC_$_INSTANCE_VARIABLES_POPAnimationEvent
 __OBJC_$_PROP_LIST_POPAnimationEvent
 __OBJC_CLASS_RO_$_POPAnimationEvent
@@ -1112,7 +1127,7 @@ __OBJC_$_INSTANCE_METHODS_POPAnimationValueEvent
 __OBJC_$_INSTANCE_VARIABLES_POPAnimationValueEvent
 __OBJC_$_PROP_LIST_POPAnimationValueEvent
 __OBJC_CLASS_RO_$_POPAnimationValueEvent
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPAnimationEvent.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPAnimationEvent.mm
 pop/POPAnimationEvent.mm
 stringFromType
 -[CAAnimation(POPAnimationExtras) pop_applyDragCoefficient]
@@ -1122,7 +1137,7 @@ __OBJC_$_CATEGORY_INSTANCE_METHODS_CAAnimation_$_POPAnimationExtras
 __OBJC_$_CATEGORY_CAAnimation_$_POPAnimationExtras
 __OBJC_$_CATEGORY_CLASS_METHODS_POPSpringAnimation_$_POPAnimationExtras
 __OBJC_$_CATEGORY_POPSpringAnimation_$_POPAnimationExtras
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPAnimationExtras.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPAnimationExtras.mm
 pop/POPAnimationExtras.mm
 POPAnimationDragCoefficient
 __ZL12pointerEqualPKvS0_
@@ -1131,7 +1146,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.29
 _OBJC_SELECTOR_REFERENCES_.31
 _OBJC_SELECTOR_REFERENCES_.35
 _OBJC_CLASSLIST_REFERENCES_$_.42
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPAnimationRuntime.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPAnimationRuntime.mm
 POPUnbox
 pop/POPAnimationRuntime.mm
 size
@@ -1182,7 +1197,7 @@ __OBJC_$_PROP_LIST_POPAnimationTracer
 __OBJC_CLASS_RO_$_POPAnimationTracer
 _OBJC_CLASSLIST_REFERENCES_$_.73
 _OBJC_CLASSLIST_REFERENCES_$_.76
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPAnimationTracer.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPAnimationTracer.mm
 pop/POPAnimationTracer.mm
 create_event
 +[POPAnimator sharedAnimator]
@@ -1193,8 +1208,8 @@ ___29+[POPAnimator sharedAnimator]_block_invoke
 -[POPAnimator _clearPendingListObserver]
 -[POPAnimator _scheduleProcessPendingList]
 ___42-[POPAnimator _scheduleProcessPendingList]_block_invoke
-___copy_helper_block_ea4_20w
-___destroy_helper_block_ea4_20w
+___copy_helper_block_ea8_32w
+___destroy_helper_block_ea8_32w
 -[POPAnimator _renderTime:items:]
 __ZL17updateDisplayLinkP11POPAnimator
 -[POPAnimator _renderTime:item:]
@@ -1205,7 +1220,7 @@ __ZN18_POPAnimationState4stopEbb
 -[POPAnimator addAnimation:forObject:key:]
 -[POPAnimator removeAllAnimationsForObject:]
 -[POPAnimator removeAnimationForObject:key:cleanupDict:]
-__ZL15deleteDictEntryP11POPAnimatorP11objc_objectP8NSStringa
+__ZL15deleteDictEntryP11POPAnimatorP11objc_objectP8NSStringb
 -[POPAnimator removeAnimationForObject:key:]
 -[POPAnimator animationKeysForObject:]
 -[POPAnimator animationForObject:key:]
@@ -1225,9 +1240,12 @@ __ZL15deleteDictEntryP11POPAnimatorP11objc_objectP8NSStringa
 -[POPAnimator .cxx_construct]
 __ZN18_POPAnimationState11advanceTimeEdP11objc_object
 __ZL16updateAnimatableP11objc_objectP26_POPPropertyAnimationStateb
+__ZNKSt9type_infoeqERKS_
 __ZN26_POPPropertyAnimationState16finalizeProgressEv
-__ZN18_POPAnimationState13handleDidStopEa
+__ZN18_POPAnimationState13handleDidStopEb
 __ZN15POPAnimatorItemC2EP11objc_objectP8NSStringP12POPAnimation
+__ZNKSt3__113__vector_baseINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEE20__throw_length_errorEv
+__ZNSt3__110shared_ptrI15POPAnimatorItemEC2IS1_vEEPT_
 __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED1Ev
 __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED0Ev
 __ZN15POPAnimatorItemD2Ev
@@ -1235,13 +1253,13 @@ __ZN15POPAnimatorItemD2Ev
 __ZN26_POPPropertyAnimationState16finalizeProgressEv.cold.1
 __ZZ29+[POPAnimator sharedAnimator]E9_animator
 __ZZ29+[POPAnimator sharedAnimator]E9onceToken
-___block_descriptor_20_e5_v4?0l
+___block_descriptor_32_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.1
 _OBJC_SELECTOR_REFERENCES_.3
 _OBJC_SELECTOR_REFERENCES_.5
 _OBJC_SELECTOR_REFERENCES_.7
 _OBJC_CLASSLIST_REFERENCES_$_.8
-___block_descriptor_24_ea4_20w_e32_v12?0^{__CFRunLoopObserver=}4L8l
+___block_descriptor_40_ea8_32w_e33_v24?0^{__CFRunLoopObserver=}8Q16l
 _OBJC_CLASSLIST_REFERENCES_$_.26
 _OBJC_CLASSLIST_REFERENCES_$_.43
 _OBJC_SELECTOR_REFERENCES_.51
@@ -1253,8 +1271,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.68
 _OBJC_SELECTOR_REFERENCES_.79
 _OBJC_SELECTOR_REFERENCES_.85
 _OBJC_CLASSLIST_REFERENCES_$_.86
-_OBJC_SELECTOR_REFERENCES_.92
-_OBJC_SELECTOR_REFERENCES_.94
 __OBJC_$_CLASS_METHODS_POPAnimator
 __OBJC_METACLASS_RO_$_POPAnimator
 __OBJC_$_INSTANCE_METHODS_POPAnimator
@@ -1274,48 +1290,56 @@ _OBJC_IVAR_$_POPAnimator._delegate
 __OBJC_$_INSTANCE_VARIABLES_POPAnimator
 __OBJC_$_PROP_LIST_POPAnimator
 __OBJC_CLASS_RO_$_POPAnimator
-_OBJC_SELECTOR_REFERENCES_.182
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPAnimator.mm
+__ZTSNSt3__114default_deleteIN3POP6VectorEEE
+__ZTINSt3__114default_deleteIN3POP6VectorEEE
+__ZTINSt3__110shared_ptrIN3POP6VectorEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+__ZTINSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+__ZTSNSt3__110shared_ptrI15POPAnimatorItemE27__shared_ptr_default_deleteIS1_S1_EE
+__ZTSNSt3__114default_deleteI15POPAnimatorItemEE
+__ZTINSt3__114default_deleteI15POPAnimatorItemEE
+__ZTINSt3__110shared_ptrI15POPAnimatorItemE27__shared_ptr_default_deleteIS1_S1_EE
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPAnimator.mm
 _ZN26_POPPropertyAnimationState16finalizeProgressEv.cold.1
 -[POPAnimator _renderTime:items:].cold.1
 pop/POPAnimator.mm
 ~POPAnimatorItem
-shared_ptr<POPAnimatorItem>
-__compressed_pair<std::__compressed_pair<POPAnimatorItem *, std::shared_ptr<POPAnimatorItem>::__shared_ptr_default_delete<POPAnimatorItem, POPAnimatorItem> >, std::allocator<POPAnimatorItem> >
-__compressed_pair_elem<std::__compressed_pair<POPAnimatorItem *, std::shared_ptr<POPAnimatorItem>::__shared_ptr_default_delete<POPAnimatorItem, POPAnimatorItem> >, void>
+shared_ptr<POPAnimatorItem, void>
+__compressed_pair<std::__1::__compressed_pair<POPAnimatorItem *, std::__1::shared_ptr<POPAnimatorItem>::__shared_ptr_default_delete<POPAnimatorItem, POPAnimatorItem> >, std::__1::allocator<POPAnimatorItem> >
+__compressed_pair_elem<std::__1::__compressed_pair<POPAnimatorItem *, std::__1::shared_ptr<POPAnimatorItem>::__shared_ptr_default_delete<POPAnimatorItem, POPAnimatorItem> >, void>
+__throw_length_error
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/vector
 ~__vector_base
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/vector
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/__memory/allocator_traits.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__memory/allocator_traits.h
 clear
 __destruct_at_end
-destroy<std::shared_ptr<POPAnimatorItem>, void>
+destroy<std::__1::shared_ptr<POPAnimatorItem>, void>
 destroy
 __vallocate
 __end_cap
 allocate
 __libcpp_allocate
 __libcpp_operator_new<unsigned long>
-vector<std::__list_iterator<std::shared_ptr<POPAnimatorItem>, void *> >
-__construct_at_end<std::__list_iterator<std::shared_ptr<POPAnimatorItem>, void *> >
+vector<std::__1::__list_iterator<std::__1::shared_ptr<POPAnimatorItem>, void *> >
+__construct_at_end<std::__1::__list_iterator<std::__1::shared_ptr<POPAnimatorItem>, void *> >
 ~_ConstructTransaction
-__construct_range_forward<std::allocator<std::shared_ptr<POPAnimatorItem> >, std::__list_iterator<std::shared_ptr<POPAnimatorItem>, void *>, std::shared_ptr<POPAnimatorItem> *>
+__construct_range_forward<std::__1::allocator<std::__1::shared_ptr<POPAnimatorItem> >, std::__1::__list_iterator<std::__1::shared_ptr<POPAnimatorItem>, void *>, std::__1::shared_ptr<POPAnimatorItem> *>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/memory
 operator!=
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/list
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/list
 operator++
-construct<std::shared_ptr<POPAnimatorItem>, std::shared_ptr<POPAnimatorItem> &, void>
-construct<std::shared_ptr<POPAnimatorItem>, std::shared_ptr<POPAnimatorItem> &>
+construct<std::__1::shared_ptr<POPAnimatorItem>, std::__1::shared_ptr<POPAnimatorItem> &, void>
+construct<std::__1::shared_ptr<POPAnimatorItem>, std::__1::shared_ptr<POPAnimatorItem> &>
 _ConstructTransaction
-distance<std::__list_iterator<std::shared_ptr<POPAnimatorItem>, void *> >
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/iterator
-__distance<std::__list_iterator<std::shared_ptr<POPAnimatorItem>, void *> >
+distance<std::__1::__list_iterator<std::__1::shared_ptr<POPAnimatorItem>, void *> >
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__iterator/distance.h
+__distance<std::__1::__list_iterator<std::__1::shared_ptr<POPAnimatorItem>, void *> >
 __vector_base
-__compressed_pair<nullptr_t, std::__default_init_tag>
-__compressed_pair_elem<nullptr_t, void>
 list
 ~__list_imp
 begin
 __list_imp
-__compressed_pair<int, std::allocator<std::__list_node<std::shared_ptr<POPAnimatorItem>, void *> > >
+__compressed_pair<int, std::__1::allocator<std::__1::__list_node<std::__1::shared_ptr<POPAnimatorItem>, void *> > >
 __compressed_pair_elem<int, void>
 __list_node_base
 POPAnimatorItem
@@ -1324,54 +1348,53 @@ finalizeProgress
 updateAnimatable
 operator+=
 advanceTime
-destroy<std::shared_ptr<POPAnimatorItem>, void, void>
+destroy<std::__1::shared_ptr<POPAnimatorItem>, void, void>
 __unlink_nodes
 __end_as_link
 empty
 __sz
-__compressed_pair<int, std::__default_init_tag>
+__compressed_pair<int, std::__1::__default_init_tag>
 ~list
 deleteDictEntry
 erase
-__as_node
 push_back
 __link_nodes_at_back
-construct<std::shared_ptr<POPAnimatorItem>, const std::shared_ptr<POPAnimatorItem> &, void>
-construct<std::shared_ptr<POPAnimatorItem>, const std::shared_ptr<POPAnimatorItem> &>
+__as_link
 __allocate_node
+construct<std::__1::shared_ptr<POPAnimatorItem>, const std::__1::shared_ptr<POPAnimatorItem> &, void>
+construct<std::__1::shared_ptr<POPAnimatorItem>, const std::__1::shared_ptr<POPAnimatorItem> &>
 stop
 isStarted
 startIfNeeded
 stopAndCleanup
-find<std::__list_iterator<std::shared_ptr<POPAnimatorItem>, void *>, std::shared_ptr<POPAnimatorItem> >
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/algorithm
+find<std::__1::__list_iterator<std::__1::shared_ptr<POPAnimatorItem>, void *>, std::__1::shared_ptr<POPAnimatorItem> >
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__algorithm/find.h
 operator==<POPAnimatorItem, POPAnimatorItem>
 applyAnimationToValue
 applyAnimationTime
 updateDisplayLink
 ~vector
-operator!=<std::shared_ptr<POPAnimatorItem> *>
-operator==<std::shared_ptr<POPAnimatorItem> *, std::shared_ptr<POPAnimatorItem> *>
+operator!=<std::__1::shared_ptr<POPAnimatorItem> *>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/__iterator/wrap_iter.h
+operator==<std::__1::shared_ptr<POPAnimatorItem> *>
 end
-__destroy_helper_block_ea4_20w
-__copy_helper_block_ea4_20w
+__destroy_helper_block_ea8_32w
+__copy_helper_block_ea8_32w
 __42-[POPAnimator _scheduleProcessPendingList]_block_invoke
 __29+[POPAnimator sharedAnimator]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/dispatch/once.h
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPCGUtils.mm
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/once.h
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPCGUtils.mm
 POPUIColorRGBACreate
 pop/POPCGUtils.mm
 POPCGColorRGBACreate
 POPUIColorGetRGBAComponents
 POPCGColorWithColor
 POPCGColorGetRGBAComponents
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPGeometry.mm
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPLayerExtras.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPGeometry.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPLayerExtras.mm
 POPLayerSetSubTranslationXY
 pop/POPLayerExtras.mm
 POPLayerGetSubTranslationXY
-CGPointMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 POPLayerSetSubTranslationZ
 POPLayerGetSubTranslationZ
 POPLayerSetSubTranslationY
@@ -1406,17 +1429,17 @@ POPLayerGetScaleY
 POPLayerSetScaleX
 POPLayerGetScaleX
 __ZN7WebCore10UnitBezier11solveCurveXEdd
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPMath.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPMath.mm
 solveCurveX
 pop/WebCore/UnitBezier.h
 sampleCurveX
 sampleCurveDerivativeX
 POPQuadraticSolve
 pop/POPMath.mm
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/c++/v1/math.h
 POPBouncy3NoBounce
 b3_friction3
 pow<double, int>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/c++/v1/math.h
 b3_friction2
 b3_friction1
 POPQuadraticOutInterpolation
@@ -1429,7 +1452,7 @@ sampleCurveY
 UnitBezier
 POPInterpolateVector
 _OBJC_CLASSLIST_REFERENCES_$_.5
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/POPVector.mm
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/POPVector.mm
 toString
 pop/POPVector.mm
 norm
@@ -1443,28 +1466,23 @@ new_cg_affine_transform
 cg_affine_transform
 new_ui_edge_insets
 ui_edge_insets
-UIEdgeInsetsMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 new_cg_rect
 cg_rect
-CGRectMake
 new_cg_size
 cg_size
-CGSizeMake
 vector2r
 new_cg_point
 cg_point
 new_cg_float
-Vector2
 vector4r
 ~Vector
-swap<float *>
+swap<double *>
 swap<unsigned long>
 __ZNK7WebCore20TransformationMatrix23isIdentityOrTranslationEv
 __ZN7WebCoreL14determinant4x4ERA4_A4_Kd
 __ZN7WebCoreL7inverseERA4_A4_KdRA4_A4_d
 __ZNK7WebCore20TransformationMatrix10isIdentityEv
-/Users/shimastripe/go/src/github.com/Nikkei/NikkeiPaperViewer2/Carthage/Checkouts/pop/pop/WebCore/TransformationMatrix.cpp
+/Users/shimastripe/go/src/github.com/Nikkei/Nikkei-iOS2/Carthage/Checkouts/pop/pop/WebCore/TransformationMatrix.cpp
 recompose
 pop/WebCore/TransformationMatrix.cpp
 scale3d
@@ -1516,48 +1534,17 @@ operator CATransform3D
 affineTransform
 narrowPrecisionToFloat<double>
 pop/WebCore/FloatConversion.h
-m42
 m41
-m22
 m21
-m12
 m11
 transform3d
-m44
 m43
-m34
 m33
-m32
 m31
-m24
 m23
-m14
 m13
 __ZL15__ARCLite__loadv
-__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
-__ZL34__arclite_objc_autoreleasePoolPushv
-__ZL33__arclite_objc_autoreleasePoolPopPv
-__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
-__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
-__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
-__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
-__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
-__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
 __ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
-__ZL18add_image_hook_ARCPK11mach_headerl
-__ZL27__arclite_objc_loadClassrefPP10objc_class
-__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
-__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
-__ZL21__arclite_object_copyP11objc_objectm
-__ZL21__arclite_objc_retainP11objc_object
-__ZL26__arclite_objc_retainBlockP11objc_object
-__ZL22__arclite_objc_releaseP11objc_object
-__ZL26__arclite_objc_autoreleaseP11objc_object
-__ZL32__arclite_objc_retainAutoreleaseP11objc_object
-__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
-__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
-__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
-__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
 __ZL22add_image_hook_swiftV1PK11mach_headerl
 __ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
 __ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
@@ -1600,21 +1587,11 @@ __ZL11_class_name
 __ZL32OBJC_$_CLASS_METHODS___ARCLite__
 __ZL17_load_method_name
 __ZL17_load_method_type
-__ZL23NSAutoreleasePool_class
-__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
-__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
-__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
-__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
-__OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
-__OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
-__OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
 __OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
 __OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
 __OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
 __OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
 __OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
-__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
-__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
 __ZL30NSUndoManagerProxy_targetClass
 __ZL29original_NSManagedObject_init
 __ZL40original_NSManagedObject_allocWithEntity
@@ -1640,11 +1617,12 @@ __ZL25original_objc_getProtocol
 __ZL22original_class_getName
 __ZL25original_protocol_getName
 __ZL36original_objc_copyClassNamesForImage
+_OBJC_SELECTOR_REFERENCES_.43
 __ZL12demangleLock
 __ZL9Demangled
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=armv7-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Xclang -clang-vendor-feature=+nullptrToBoolConversion -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNeonImmediateRangeCheck -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+revert09abecef7bbf -mlinker-version=711 -march=armv7a
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.Internal.sdk
-iPhoneOS15.0.Internal.sdk
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D RC_EDM_ONLY_PDI=1 -D RC_EDM_ONLY_PDI=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+enableAggressiveVLAFolding -Xclang -clang-vendor-feature=+revert09abecef7bbf -Xclang -clang-vendor-feature=+thisNoAlignAttr -Xclang -clang-vendor-feature=+thisNoNullAttr -mlinker-version=763
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.Internal.sdk
+iPhoneOS15.4.Internal.sdk
 /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
 /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
 fixStringForCoreData
@@ -1652,7 +1630,7 @@ source/arclite.mm
 cxxConstruct
 arclite_uninitialized_function
 scanMangledField
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.Internal.sdk/usr/include/_ctype.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.Internal.sdk/usr/include/_ctype.h
 __isctype
 demangledName
 copySwiftV1DemangledName
@@ -1695,6 +1673,7 @@ __arclite_NSManagedObject_allocWithEntity
 __arclite_NSManagedObject_init
 __arclite_NSUndoManagerProxy_isKindOfClass
 add_image_hook_swiftV1
+patch_lazy_pointers
 patch_t<const char **(const char *, unsigned int *)>
 patch_t<const char *(Protocol *)>
 patch_t<const char *(Class)>
@@ -1703,54 +1682,10 @@ patch_t<Class (const char *)>
 patch_t<void *(id)>
 patch_t<Class (Class, const char *, unsigned long)>
 patch_t<Class (Class, const objc_image_info *)>
-__arclite_objc_storeStrong
-__arclite_objc_release
-__arclite_objc_retain
-__arclite_objc_retainAutoreleasedReturnValue
-__arclite_objc_retainAutoreleaseReturnValue
-__arclite_objc_autoreleaseReturnValue
-__arclite_objc_retainAutorelease
-__arclite_objc_autorelease
-__arclite_objc_retainBlock
-__arclite_object_copy
-fixupCopiedReferences
-_class_getInstanceStart
-alignedInstanceStart
-__arclite_class_usesAutomaticRetainRelease
-classOrSuperClassesUseARR
-__arclite_object_setIvar
-isScannedOffset
-_ivar_getClass
-__arclite_object_setInstanceVariable
-__arclite_objc_loadClassref
-add_image_hook_ARC
-patch_t<void (id *, id)>
-patch_t<id (id)>
-patch_t<void (id)>
-patch_t<id (id, unsigned long)>
-patch_t<void (id, objc_ivar *, id)>
-patch_t<objc_ivar *(id, const char *, void *)>
-patch_t<Class (Class *)>
 __arclite_NSMutableDictionary__setObject_forKeyedSubscript
-__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
-__arclite_NSOrderedSet_objectAtIndexedSubscript
-__arclite_NSDictionary_objectForKeyedSubscript
-__arclite_NSMutableArray_setObject_atIndexedSubscript
-__arclite_NSArray_objectAtIndexedSubscript
-patch_lazy_pointers
-__arclite_objc_autoreleasePoolPop
-__arclite_objc_autoreleasePoolPush
-add_image_hook_autoreleasepool
-patch_t<void (void *)>
-patch_t<void *()>
 __ARCLite__load
 install_swiftV1
 replaceMethod
-install_ARC
 install_dict_nil_value
 addOrReplaceMethod
 keyedGetter
-install_subscripting
-addMethod
-indexedGetter
-install_autoreleasepool
